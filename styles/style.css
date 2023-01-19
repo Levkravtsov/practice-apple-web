@@ -1,0 +1,195 @@
+body {
+  background: linear-gradient(to right, black 70%, black 30%);
+  max-width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* homepage start */
+
+/* header start */
+
+.navbar {
+  border-bottom: 1px solid gray;
+  margin-bottom: 60px;
+}
+.navbar a {
+  color: white;
+  margin-right: 20px;
+}
+.navbar a:hover {
+  color: gray;
+}
+
+.apple-logo {
+  padding-bottom: 5px;
+  width: 15px;
+}
+
+.navbar-nav .nav-link.active {
+  color: gray;
+}
+
+/* header end */
+
+/* grid start */
+
+.main-container {
+  color: #fff;
+}
+
+.info {
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 5px;
+  border: solid;
+  margin-bottom: 5px;
+}
+.info a {
+  color: gray;
+  text-decoration: none;
+}
+
+.title-home {
+  margin-bottom: 1px;
+}
+.subtitle-home {
+  color: #6e6e73;
+  margin-bottom: 15px;
+}
+.img-figure {
+  width: 600px;
+  margin-bottom: 20px;
+}
+.iphone-14-title {
+  margin-bottom: 1px;
+}
+.iphone-14-subtitle {
+  color: #6e6e73;
+}
+.learn-more,
+.buy {
+  text-decoration: none;
+}
+.iphone-14-img {
+  width: 600px;
+}
+/* grid end */
+
+/* footer start */
+
+.hr-footer {
+  border: 1px solid gray;
+}
+
+.footer {
+  margin-top: 10px;
+  color: gray;
+  padding-left: 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.copyright a {
+  color: gray;
+}
+.copyright a:hover {
+  color: white;
+}
+
+.about-me {
+  text-decoration: none;
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+.about-me:hover{
+background-color: rgb(255, 255, 255);}
+
+/* footer end */
+
+/* homepage end */
+
+/* iphonepage start */
+
+.new {
+  color: #86868b;
+  margin-bottom: 12px;
+}
+.title-i {
+  margin-bottom: 16px;
+}
+.big-title-i {
+  background: linear-gradient(180deg, #ffb6ff 0%, #b344ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 24px;
+}
+.description-14-pro {
+  color: #f5f5f7;
+  margin-bottom: 27px;
+}
+.buy-btn,
+.learn-more-14-pro {
+  text-decoration: none;
+}
+.pro-img {
+  margin-top: 42px;
+  width: 600px;
+}
+
+/* iphonepage end */
+
+/* macpage start */
+
+.btn-light {
+  border-radius: 980px;
+}
+
+.hr-mac {
+  border: 1px solid gray;
+}
+.new-mac {
+  color: orangered;
+  margin-bottom: 5px;
+}
+.mac-pro-intro {
+  margin-bottom: 15px;
+}
+.mac-pro-description {
+  margin-bottom: 25px;
+}
+.price-mac-pro {
+  margin-bottom: 5px;
+}
+.btn-primary {
+  padding-right: 10px;
+  margin-bottom: 7px;
+  border-radius: 980px;
+}
+.learn-more-mac-pro {
+  text-decoration: none;
+  padding-left: 5px;
+  margin-bottom: 7px;
+}
+.available-from {
+  color: gray;
+}
+.mac-pro-img {
+  width: 600px;
+}
+.mac-mini-hr {
+  border: 1px solid gray;
+}
+
+/* macpage end */
+
+@media (max-width: 800px) {
+  .img-figure,
+  .iphone-14-img,
+  .pro-img,
+  .mac-pro-img {
+    width: 100%;
+  }
+}
